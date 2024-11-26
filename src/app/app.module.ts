@@ -32,7 +32,7 @@ import { CarouselComponent } from './components/pages/news/newsComponents/carous
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpLoginService } from './components/pages/login/services/http-login.service';
 
 @NgModule({
@@ -72,7 +72,8 @@ import { HttpLoginService } from './components/pages/login/services/http-login.s
     CommonModule,
     HttpClientModule,
     TranslocoRootModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],  
   providers: [HttpLoginService],
