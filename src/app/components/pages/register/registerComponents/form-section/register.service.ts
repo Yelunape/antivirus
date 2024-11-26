@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { map, Observable } from 'rxjs';
 import { registerResponse, User } from 'src/interfaces/user.interface';
 
-const URL = 'http://localhost:8080/api/auth/register'
+const URL = 'https://56j68jcs-8080.use2.devtunnels.ms/api/auth/register'
 
 @Injectable({
   providedIn: 'root'
